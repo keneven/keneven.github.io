@@ -136,6 +136,25 @@
     <div class="projects">
 
       <div class="card">
+        <h3>Retail Gross Margin Review Agent</h3>
+        <div class="stack">Python · LLM · self-verifying pipeline</div>
+        <p>An agent that runs a retail finance team's monthly gross margin close end to end,
+           and refuses to publish numbers it cannot stand behind. It validates and quarantines
+           bad rows, ties control totals to source, splits the margin movement into price,
+           volume and mix, detects anomalies, writes the commentary, and then verifies every
+           figure in that commentary against the computed data before anything is published.</p>
+        <ul class="metrics">
+          <li>Deterministic code does the arithmetic, the model only writes prose</li>
+          <li>98% of planted numeric errors caught across 41 injections, zero false positives</li>
+          <li>Hover any figure in the live report to see the fact it was checked against</li>
+        </ul>
+        <div class="links2">
+          <a class="repo" href="https://keneven.github.io/retail-margin-agent/">Live report →</a>
+          <a class="repo" href="https://github.com/keneven/retail-margin-agent">Repo →</a>
+        </div>
+      </div>
+
+      <div class="card">
         <img class="thumb" src="assets/tableau.png" alt="Tableau global superstore profitability dashboard">
         <span class="badge">Live · Tableau Public</span>
         <h3>Global Superstore Profitability</h3>
